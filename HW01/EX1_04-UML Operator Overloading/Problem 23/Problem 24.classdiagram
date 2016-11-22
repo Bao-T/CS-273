@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="30ac3776-05cf-4348-9b30-4e2f476658fc" name="Problem 24" linkedPackageId="c8adf9ff-9e05-4d29-9d34-660818b2f775" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e4cc948e-e4cb-4b36-8d60-06fa428906fc" name="Square" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7028e428-9660-45c3-8ded-640d6d3a604a" />
+        <generalsInternal>
+          <generalization Id="bfc840c6-e7db-43cd-9aee-498f5c58f13e" isSubstitutable="false">
+            <classMoniker Id="b1dc7c55-f015-4cae-9983-0b0d2a924bc0" LastKnownName="Shape" />
+            <elementDefinition Id="9b9d37ee-16ec-4bfc-8a8d-f9621c63834b" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="72777854-40d5-4bbb-886a-2d94453debd9" name="Shape" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="78c6b240-1729-4261-acf1-6a8a05f9ce71" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b1dc7c55-f015-4cae-9983-0b0d2a924bc0" name="Shape" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bf997848-5b3c-4902-a6f2-dc66af4af800" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="c8adf9ff-9e05-4d29-9d34-660818b2f775" name="Problem 23">
+    <elementDefinition Id="d876ec10-42a2-4091-abbf-052d645504e6" />
+    <profileInstances>
+      <packageHasProfileInstances Id="d2f64c59-c824-402a-afbb-446e43d789ad">
+        <profileInstance Id="b520fddf-273c-45dd-a3e3-61245e0d0a55" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="68e405ba-6ccf-4f64-a782-0d7c2bc65ff6">
+        <profileInstance Id="a9623fc5-95ac-442c-bf64-b9bb2d05f966" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

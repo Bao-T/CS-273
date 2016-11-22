@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="9525de87-dcf2-43f8-8d6b-dbd74e5aa5c1" name="Problem 23" linkedPackageId="72beb1f7-c7e0-48c8-b230-d8b4b7b65dd0" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3315ae80-e96b-4c9c-b614-e779298e4ce4" name="Elevator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3f9f1a36-4a0f-4435-acae-dd6df5e5a647" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ea734640-e55a-43ee-8977-228f82eabdaa" name="Building" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1512b890-4392-4526-8818-3debf71ed1aa" />
+        <targetEnds>
+          <association Id="20891b5b-ee40-47c2-a2ff-95d36105d225" isDerived="false" sourceEndRoleName="Building" targetEndRoleName="Elevator" isLeaf="false" isAbstract="false">
+            <classMoniker Id="3315ae80-e96b-4c9c-b614-e779298e4ce4" LastKnownName="Elevator" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c4227921-dca1-4cf8-b1b8-d71400f93307" name="Building" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="32e70a3f-41cb-4fc9-9c30-96aceaafcebb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9322cb63-9189-4e63-b55a-4c8330d8c488" name="Elevator" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="aa91461a-9f84-4a5d-936f-819d58b73885" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6b07aa2c-190c-461a-80c7-03b06040531f" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="e5cbefa0-3521-4144-aa7a-58d219936745" name="Elevator" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ab9a008b-5b8a-4bd4-907b-8d0a6afde9a2" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="72beb1f7-c7e0-48c8-b230-d8b4b7b65dd0" name="Problem 23">
+    <elementDefinition Id="d876ec10-42a2-4091-abbf-052d645504e6" />
+    <profileInstances>
+      <packageHasProfileInstances Id="7616a715-f27e-4956-969d-8bed2dcbad31">
+        <profileInstance Id="a2a262a8-7273-485a-b2e0-64555e9b4faa" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="aa9e5f69-f80b-44b7-9c2d-ec4e1c065f73">
+        <profileInstance Id="cbccd59f-9e43-4989-9066-b72cc813f226" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>
