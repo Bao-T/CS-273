@@ -15,7 +15,7 @@ using std::endl;
 
 int main() // PLEASE DO NOT MODIFY THE MAIN FUNCTION
 {
-	Party *myparty = PartyFactory::factory("dinner"); // Create a dinner party with the party factory
+	Party *myparty = PartyFactory::factory("birthday"); // Create a dinner party with the party factory
 
 	// Let's add a couple of people to the dinner party, and store their tickets in variables
 	PartyTicket *ticket1 = myparty->add("Mike");
