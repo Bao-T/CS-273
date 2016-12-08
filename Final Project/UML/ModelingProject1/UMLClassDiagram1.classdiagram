@@ -168,7 +168,7 @@
           <property Id="862dfdb1-8cef-4358-9717-ab0b13caeba8" name="Records" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="04297472-81c1-432e-b3d8-2881efbd51e4" />
             <type_NamedElement>
-              <referencedTypeMoniker Id="e0cf77e1-8cfa-4711-8f01-32ba97d778a1" LastKnownName="multiset&lt;PatientRecords&gt;" />
+              <referencedTypeMoniker Id="9e08f5de-4884-474a-a091-9f03795daae3" LastKnownName="multiset&lt;Patient&gt;" />
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
@@ -232,7 +232,7 @@
           <property Id="235ae6ed-0a75-4506-b03b-6b7b1dcfdf97" name="Records" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="c2b8e869-6a45-449c-a982-b74b9e6c6622" />
             <type_NamedElement>
-              <referencedTypeMoniker Id="ebbfb558-3814-49e9-befe-49d2242a2eb2" LastKnownName="*multiset&lt;PatientRecords&gt;" />
+              <referencedTypeMoniker Id="8f5b40c2-4d28-4ea5-9239-25d496422661" LastKnownName="*multiset&lt;Patient&gt;" />
             </type_NamedElement>
           </property>
           <property Id="b134109f-c410-42f4-8aba-68501aeb0a78" name="number_of_caregivers" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
@@ -435,18 +435,18 @@
       </referencedType>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <referencedType Id="e0cf77e1-8cfa-4711-8f01-32ba97d778a1" name="multiset&lt;PatientRecords&gt;" isAbstract="false" isLeaf="false" cachedFullName="multiset&lt;PatientRecords&gt;">
-        <elementDefinition Id="90874fac-09c5-4619-a38e-b9d176d3952c" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <referencedType Id="ebbfb558-3814-49e9-befe-49d2242a2eb2" name="*multiset&lt;PatientRecords&gt;" isAbstract="false" isLeaf="false" cachedFullName="*multiset&lt;PatientRecords&gt;">
-        <elementDefinition Id="8fd521f2-5538-45b5-baf2-ec6b5e3ecbd5" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
       <referencedType Id="e4056a38-40c5-47f4-8b03-6809e7580a83" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
         <elementDefinition Id="76625507-a106-4986-ba49-ae1ce80ad8f2" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="9e08f5de-4884-474a-a091-9f03795daae3" name="multiset&lt;Patient&gt;" isAbstract="false" isLeaf="false" cachedFullName="multiset&lt;Patient&gt;">
+        <elementDefinition Id="4367be1d-4753-414b-bb9d-88b8a6333250" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="8f5b40c2-4d28-4ea5-9239-25d496422661" name="*multiset&lt;Patient&gt;" isAbstract="false" isLeaf="false" cachedFullName="*multiset&lt;Patient&gt;">
+        <elementDefinition Id="7c245fba-058e-496c-83ad-a7b9b8480d9b" />
       </referencedType>
     </packageHasNamedElement>
   </packagedElements>

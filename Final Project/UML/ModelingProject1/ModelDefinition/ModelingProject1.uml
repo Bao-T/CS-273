@@ -422,8 +422,8 @@
             isComposite="false">
             <type_NamedElement>
               <undefinedTypeMoniker
-                Id="90874fac-09c5-4619-a38e-b9d176d3952c"
-                LastKnownName="multiset&lt;PatientRecords&gt;"
+                Id="4367be1d-4753-414b-bb9d-88b8a6333250"
+                LastKnownName="multiset&lt;Patient&gt;"
                 LastKnownLocation="ModelingProject1.uml" />
             </type_NamedElement>
           </property>
@@ -804,8 +804,8 @@
             isComposite="false">
             <type_NamedElement>
               <undefinedTypeMoniker
-                Id="8fd521f2-5538-45b5-baf2-ec6b5e3ecbd5"
-                LastKnownName="*multiset&lt;PatientRecords&gt;"
+                Id="7c245fba-058e-496c-83ad-a7b9b8480d9b"
+                LastKnownName="*multiset&lt;Patient&gt;"
                 LastKnownLocation="ModelingProject1.uml" />
             </type_NamedElement>
           </property>
@@ -1175,6 +1175,24 @@
       <undefinedType
         Id="8fd521f2-5538-45b5-baf2-ec6b5e3ecbd5"
         name="*multiset&lt;PatientRecords&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="72f8474f-fe65-4d27-a174-8fbcab9b2fee"
+        name="Paitent Records"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="4367be1d-4753-414b-bb9d-88b8a6333250"
+        name="multiset&lt;Patient&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="7c245fba-058e-496c-83ad-a7b9b8480d9b"
+        name="*multiset&lt;Patient&gt;" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
