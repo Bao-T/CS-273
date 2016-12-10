@@ -6,13 +6,14 @@
 */
 
 /*
-Dinner Party add, list, remove          29/30 -- Probably a for loop would work better than while in list()
+Dinner Party add, list, remove          27/30 -- Probably a for loop would work better than while in list()
+                                              -- need try/catch for push_front
 BirthdayParty                           20/20
 BirthdayPartyTicket                     20/20
-PartyFactory::factory                   /10
+PartyFactory::factory                   10/10
 Well-designed and commented code        19/20 -- need more comments
 
-TOTAL                                   /100
+TOTAL                                   96/100
 */
 #include <iostream>
 #include <string>
