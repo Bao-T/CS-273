@@ -4,6 +4,16 @@
 *
 * @authors Everyone!
 */
+
+/*
+Dinner Party add, list, remove          29/30 -- Probably a for loop would work better than while in list()
+BirthdayParty                           20/20
+BirthdayPartyTicket                     20/20
+PartyFactory::factory                   /10
+Well-designed and commented code        19/20 -- need more comments
+
+TOTAL                                   /100
+*/
 #include <iostream>
 #include <string>
 #include "Party.h"
